@@ -6,13 +6,15 @@ import pandas as pd
 #data visualization
 import matplotlib.pyplot as plt
 
+#logging functions
+from Code_Logger import log_functions as lg
+
 #calculation modules
 import numpy as np
 from custom_math import gauss_optimum
 from custom_math import find_extrema
 
-#logging functions
-import log_functions as lg
+
 
 def DFT(x):
     """Compute the discrete Fourier Transform of the 1D array x"""
